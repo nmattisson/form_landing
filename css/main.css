@@ -1,0 +1,23 @@
+#email-input-group {
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#form-logo-vector {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#intro {
+    font-size: 1.8em;
+    font-weight: 300;
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+#signup {
+  font-size: 1.2em;
+  font-weight: 400;
+}
