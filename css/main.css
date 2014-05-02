@@ -49,6 +49,12 @@
   font-weight: 300;
 }
 
+#email {
+    margin-top: 1em;
+  font-size: 1.6em;
+  font-weight: 300;
+}
+
 @media (min-width: 768px) {
     #intro {
         font-size: 1.8em;

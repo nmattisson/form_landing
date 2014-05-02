@@ -6,7 +6,8 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #333;
+  text-decoration:none;
 }
 
 /* Custom default button */
@@ -139,7 +140,7 @@ body {
     top: 0;
   }
   .mastfoot {
-    position: fixed;
+/*    position: fixed;*/
     bottom: 0;
   }
   /* Start the vertical centering */
