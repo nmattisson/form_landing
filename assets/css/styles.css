@@ -1,0 +1,170 @@
+html, body {
+    height: 100%;
+    font-family: Open Sans, sans-serif;
+}
+
+.page-content {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -150px;
+    padding: 0 0 150px;
+}
+
+.page-content-frontpage {
+    height: 100%;
+}
+
+.page-footer {
+    background-color: #080808;
+    color: #d0d0d0;
+    height:150px;
+    padding-top: 30px;
+}
+
+a, a:focus, a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.textured {
+    background: url('../images/concrete.jpg');
+}
+
+.logo-small-bar {
+    height: 76px;
+    margin-bottom: 50px;
+}
+
+.logo-small {
+    height: 30px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.full-height {
+    min-height: 100%;
+}
+
+.v-center {
+    margin-top: 7%;
+}
+
+.primary-header {
+    color: #d00;
+    margin-bottom: 30px;
+}
+
+.hero {
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.mastfoot {
+    height: 100px;
+}
+
+#email-input-group {
+    max-width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mc-email {
+    background: #fff;
+    font-weight: 300;
+    font-size: 22px;
+    color: #888d94;
+    margin: 0;
+    padding: 26px 51px 25px 20px;
+    border: 0;
+    border-radius: 0px;
+    height: 30px;
+    max-width: 450px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.btn-submit {
+    background: #DC0000;
+    color: white;
+    padding: 15px 20px 16px 20px;
+    border: 0;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+#form-logo-vector {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intro {
+    font-size: 1.6em;
+    font-weight: 300;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+#signup {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+#email {
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+#email a {
+    color: #fff;
+}
+
+#blog {
+    margin-top: 1em;
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+.blog-entry-list {
+    list-style-type: none;
+}
+
+.blog-entry-list li {
+    margin-top: 50px;
+}
+
+.excerpt {
+}
+
+.timestamp {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.by-author {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.blog-container {
+    margin-bottom: 30px;
+}
+
+.blog-container img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    #intro {
+        font-size: 1.8em;
+        font-weight: 300;
+        margin-top: 1.5em;
+        margin-bottom: 2.5em;
+    }
+}
