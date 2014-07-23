@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    font-family: Open Sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .page-content {
@@ -16,28 +16,39 @@ html, body {
 }
 
 .page-footer {
-    background-color: #080808;
+    background-color: #404040;
     color: #d0d0d0;
-    height:150px;
     padding-top: 30px;
+    margin-top: 30px;
+}
+
+.page-footer h4 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: 'Quicksand', 'Open Sans', sans-serif;
+
+}
+
+.page-footer-text {
+    margin-bottom: 20px;
 }
 
 a, a:focus, a:hover {
-    color: #333;
+    color: #d00;
     text-decoration: none;
 }
 
 .textured {
-    background: url('../images/concrete.jpg');
+    background-color: #404040;
 }
 
 .logo-small-bar {
-    height: 76px;
+    height: 100px;
     margin-bottom: 50px;
 }
 
 .logo-small {
-    height: 30px;
+    height: 70px;
     position: relative;
     top: 20px;
     left: 20px;
@@ -49,11 +60,11 @@ a, a:focus, a:hover {
 
 .v-center {
     margin-top: 7%;
-}
-
-.primary-header {
-    color: #d00;
-    margin-bottom: 30px;
+    background: url('../images/floorplan.png');
+    background-size: contain;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-position:center;
 }
 
 .hero {
@@ -63,6 +74,13 @@ a, a:focus, a:hover {
 
 .mastfoot {
     height: 100px;
+}
+
+.mastfoot a {
+    font-size: 1.6em;
+    font-weight: 300;
+    color: #fff;
+    margin: 10px;
 }
 
 #email-input-group {
@@ -88,6 +106,10 @@ a, a:focus, a:hover {
     z-index: 0;
 }
 
+label {
+    font-weight:300;
+}
+
 .btn-submit {
     background: #DC0000;
     color: white;
@@ -97,6 +119,38 @@ a, a:focus, a:hover {
     font-weight: bold;
 }
 
+.page-footer .btn-submit {
+    background: #DC0000;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: 0;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+.page-footer #email-input-group {
+    max-width: 30em;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.page-footer #mc-email {
+    background: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    color: #888d94;
+    margin: 0;
+    padding: 20px 40px 20px 10px;
+    border: 0;
+    border-radius: 0px;
+    height: 20px;
+    max-width: 450px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
 #form-logo-vector {
     width: 500px;
     margin-left: auto;
@@ -104,6 +158,7 @@ a, a:focus, a:hover {
 }
 
 #intro {
+    color: #fff;
     font-size: 1.6em;
     font-weight: 300;
     margin-top: 1em;
@@ -111,17 +166,9 @@ a, a:focus, a:hover {
 }
 
 #signup {
+    color: #fff;
     font-size: 1.2em;
     font-weight: 300;
-}
-
-#email {
-    font-size: 1.6em;
-    font-weight: 300;
-}
-
-#email a {
-    color: #fff;
 }
 
 #blog {
@@ -150,14 +197,51 @@ a, a:focus, a:hover {
     font-size: 1.2em;
     color: #666;
     margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: 'Quicksand', 'Open Sans', sans-serif;
+}
+
+.signature {
+    font-size: 1.4em;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', 'Open Sans', sans-serif;
+}
+
+.peripheral {
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #999;
+}
+
+.caption {
+    font-size: 0.9em;
+    color: #999;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .blog-container {
-    margin-bottom: 30px;
+    max-width: 585px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .blog-container img {
     width: 100%;
+}
+
+.blog-container h1 {
+    color: #d00;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', 'Open Sans', sans-serif;
+}
+
+.blog-container h2 {
+    color: #d00;
+    text-transform: uppercase;
+    font-family: 'Quicksand', 'Open Sans', sans-serif;
+    font-size: 1.4em;
 }
 
 @media (min-width: 768px) {
