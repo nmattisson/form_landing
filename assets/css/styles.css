@@ -89,7 +89,8 @@ a, a:focus, a:hover {
   z-index: 0; }
 
 label {
-  font-weight: 300; }
+  font-weight: 300;
+  color: white; }
 
 .btn-submit {
   background: #DC0000;
