@@ -18,13 +18,22 @@ html, body {
   padding-top: 30px;
   margin-top: 30px; }
 
-.page-footer h4 {
-  font-size: 1.2em;
-  text-transform: uppercase;
-  font-family: 'Quicksand', 'Open Sans', sans-serif; }
+.page-footer a, .page-footer a:focus, .page-footer a:hover {
+  color: #d0d0d0;
+  text-decoration: none; }
 
 .page-footer-text {
   margin-bottom: 20px; }
+
+.page-footer h2 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  font-family: 'Quicksand', 'Open Sans', sans-serif; }
+
+.page-footer h3 {
+  font-size: 1.0em;
+  text-transform: uppercase;
+  font-family: 'Quicksand', 'Open Sans', sans-serif; }
 
 a, a:focus, a:hover {
   color: #d00;
@@ -48,7 +57,7 @@ a, a:focus, a:hover {
 
 .v-center {
   margin-top: 7%;
-  background: url('../images/floorplan.png');
+  background: url("../images/floorplan.png");
   background-size: contain;
   background-origin: content-box;
   background-repeat: no-repeat;
@@ -67,67 +76,10 @@ a, a:focus, a:hover {
   color: #fff;
   margin: 10px; }
 
-#email-input-group {
-  max-width: 30em;
-  margin-left: auto;
-  margin-right: auto; }
-
-#mc-email {
-  background: #fff;
-  font-weight: 300;
-  font-size: 22px;
-  color: #888d94;
-  margin: 0;
-  padding: 26px 51px 25px 20px;
-  border: 0;
-  border-radius: 0px;
-  height: 30px;
-  max-width: 450px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 0; }
-
-label {
-  font-weight: 300;
-  color: white; }
-
-.btn-submit {
-  background: #DC0000;
-  color: white;
-  padding: 15px 20px 16px 20px;
-  border: 0;
-  border-radius: 0px;
-  font-weight: bold; }
-
-.page-footer .btn-submit {
-  background: #DC0000;
-  color: white;
-  padding: 10px 20px 10px 20px;
-  border: 0;
-  border-radius: 0px;
-  font-weight: bold; }
-
-.page-footer #email-input-group {
-  margin-left: 0px; }
-
-.page-footer #mc-email {
-  font-size: 18px;
-  color: #888d94;
-  padding: 20px 40px 20px 10px;
-  height: 20px; }
-
 #form-logo-vector {
   width: 500px;
   margin-left: auto;
   margin-right: auto; }
-
-#intro {
-  color: #fff;
-  font-size: 1.6em;
-  font-weight: 300;
-  margin-top: 1em;
-  margin-bottom: 1.5em; }
 
 #signup {
   color: #fff;
@@ -145,42 +97,6 @@ label {
 .blog-entry-list li {
   margin-top: 50px; }
 
-.timestamp {
-  font-size: 0.8em;
-  color: #666; }
-
-.by-author {
-  font-size: 1.2em;
-  color: #666;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  font-family: 'Quicksand', 'Open Sans', sans-serif; }
-
-.signature {
-  font-size: 1.4em;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  font-family: 'Quicksand', 'Open Sans', sans-serif; }
-
-.peripheral {
-  margin-bottom: 10px;
-  font-style: italic;
-  color: #999; }
-
-.caption {
-  font-size: 0.9em;
-  color: #999;
-  margin-top: 10px;
-  margin-bottom: 30px; }
-
-.blog-container {
-  max-width: 585px;
-  margin-left: auto;
-  margin-right: auto; }
-
-.blog-container img {
-  width: 100%; }
-
 .blog-container h1 {
   color: #d00;
   margin-bottom: 30px;
@@ -192,9 +108,8 @@ label {
   font-family: 'Quicksand', 'Open Sans', sans-serif;
   font-size: 1.4em; }
 
-@media (min-width: 768px) {
-  #intro {
-    font-size: 1.8em;
-    font-weight: 300;
-    margin-top: 1.5em;
-    margin-bottom: 2.5em; } }
+.blog-container h3 {
+  color: #d00;
+  text-transform: uppercase;
+  font-family: 'Quicksand', 'Open Sans', sans-serif;
+  font-size: 1.0em; }
