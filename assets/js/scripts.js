@@ -9,7 +9,7 @@ $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - $('.navbar').height() - parseInt($('#intro').css('padding-top')) // TODO: Fix so that this works both on mobile and desktop
+            scrollTop: $($anchor.attr('href')).offset().top //- $('.navbar').height() - parseInt($('#intro').css('padding-top')) // TODO: Fix so that this works both on mobile and desktop
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });

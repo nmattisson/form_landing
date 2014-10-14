@@ -283,6 +283,10 @@ section {
 @media(min-width:768px) {
   section {
     padding-top: 50px;
+    padding-bottom: 50px; }
+
+  section:first-of-type {
+    padding-top: 150px;
     padding-bottom: 50px; } }
 .service-heading {
   margin: 15px 0;
