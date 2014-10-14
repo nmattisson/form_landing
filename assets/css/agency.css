@@ -282,7 +282,7 @@ section {
 
 @media(min-width:768px) {
   section {
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 50px; } }
 .service-heading {
   margin: 15px 0;
