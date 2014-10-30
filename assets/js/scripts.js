@@ -48,3 +48,10 @@ $('#mc-form-launch').ajaxChimp({
 
 // For the sidebar on /press
 $("#press-sidebar").affix();
+
+// countdown clock to kickstarter launch
+var clock = $('.clock').FlipClock(3600 * 24 * 3, {
+  clockFace: 'DailyCounter',
+  countdown: true,
+  showSeconds: false
+});
