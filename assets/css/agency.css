@@ -57,6 +57,9 @@ h2 {
   color: #005d9c;
   text-transform: uppercase; }
 
+pre {
+  word-break: normal; }
+
 .img-centered {
   margin: 0 auto; }
 
@@ -585,3 +588,15 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: #f7f7f7; }
+
+.press-photos {
+  padding-bottom: 20px; }
+
+.team-photos {
+  padding-top: 10px; }
+  .team-photos p:first-of-type {
+    text-align: center;
+    text-transform: uppercase; }
+  .team-photos p {
+    padding-right: 10px;
+    padding-left: 10px; }

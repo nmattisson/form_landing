@@ -45,3 +45,6 @@ $('#mc-form-launch').ajaxChimp({
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
+// For the sidebar on /press
+$("#press-sidebar").affix();
