@@ -51,7 +51,7 @@ $("#press-sidebar").affix();
 
 // countdown clock to kickstarter launch
 var d1 = new Date();
-var d2 = new Date('2014-11-04 00:00:00');
+var d2 = new Date(2014, 10, 4, 0, 0, 0);
 var seconds =  (d2 - d1)/1000;
 var clock = $('.clock').FlipClock(seconds, {
   clockFace: 'DailyCounter',
