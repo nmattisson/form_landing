@@ -4,10 +4,10 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif; }
 
 .text-muted {
-  color: #777777; }
+  color: #777; }
 
 .text-primary {
-  color: #005d9c; }
+  color: #005D9C; }
 
 p {
   font-size: 14px;
@@ -28,7 +28,7 @@ a.active {
   text-decoration: none; }
 
 a {
-  color: #005d9c; }
+  color: #005D9C; }
 
 a:hover,
 a:focus,
@@ -50,11 +50,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500; }
 
 h1, h3 {
-  color: #005d9c;
+  color: #005D9C;
   text-transform: none; }
 
 h2 {
-  color: #005d9c;
+  color: #005D9C;
   text-transform: uppercase; }
 
 pre {
@@ -71,38 +71,38 @@ pre {
 
 .btn-primary {
   color: white;
-  background-color: #005d9c;
-  border-color: #005d9c;
+  background-color: #005D9C;
+  border-color: #005D9C;
   font-family: "Quicksand", "Open Sans", sans-serif;
   font-weight: 700; }
   .btn-primary .badge {
-    color: #005d9c;
+    color: #005D9C;
     background-color: white; }
 
 .btn-xl {
   color: white;
-  background-color: #005d9c;
-  border-color: #005d9c;
+  background-color: #005D9C;
+  border-color: #005D9C;
   font-family: "Quicksand", "Open Sans", sans-serif;
   font-weight: 700;
   border-radius: 5px;
   font-size: 18px;
   padding: 20px 40px; }
   .btn-xl .badge {
-    color: #005d9c;
+    color: #005D9C;
     background-color: white; }
 
 .btn-submit {
   color: white;
-  background-color: #005d9c;
-  border-color: #005d9c;
+  background-color: #005D9C;
+  border-color: #005D9C;
   font-family: "Quicksand", "Open Sans", sans-serif;
   font-weight: 700;
   border-radius: 5px;
   font-size: 16px;
   padding: 15px 30px; }
   .btn-submit .badge {
-    color: #005d9c;
+    color: #005D9C;
     background-color: white; }
 
 footer .btn-submit {
@@ -129,7 +129,7 @@ footer .btn-submit {
 
 label {
   font-weight: 300;
-  color: #777777; }
+  color: #777; }
 
 @media(min-width:460px) {
   .input-group {
@@ -142,7 +142,7 @@ label {
   border-color: transparent; }
   .navbar-default .navbar-brand {
     padding: 10px;
-    color: #005d9c;
+    color: #005D9C;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, cursive; }
     .navbar-default .navbar-brand img {
       height: 30px; }
@@ -151,12 +151,12 @@ label {
   .navbar-default .navbar-collapse {
     border-color: fade(white, 2%); }
   .navbar-default .navbar-toggle {
-    background-color: #005d9c;
-    border-color: #005d9c; }
+    background-color: #005D9C;
+    border-color: #005D9C; }
     .navbar-default .navbar-toggle .icon-bar {
       background-color: white; }
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: #005d9c; }
+      background-color: #005D9C; }
   .navbar-default .nav li {
     margin-right: 10px; }
     .navbar-default .nav li a {
@@ -282,6 +282,12 @@ section {
       font-family: "Quicksand", "Open Sans", sans-serif;
       text-transform: none;
       font-weight: 400; }
+  section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+  section li {
+    margin: 1em 0; }
 
 @media(min-width:768px) {
   section {
@@ -303,10 +309,10 @@ section {
     width: 100%; }
   .blog-container .timestamp {
     font-size: 0.8em;
-    color: #666666; }
+    color: #666; }
   .blog-container .by-author {
     font-size: 1.2em;
-    color: #666666;
+    color: #666;
     margin-bottom: 30px;
     text-transform: uppercase;
     font-family: "Quicksand", "Open Sans", sans-serif; }
@@ -319,11 +325,11 @@ section {
     font-size: 1em;
     margin-bottom: 10px;
     font-style: italic;
-    color: #999999; }
+    color: #999; }
   .blog-container .caption {
     font-size: 1em;
     font-style: italic;
-    color: #999999;
+    color: #999;
     margin-top: 10px;
     margin-bottom: 30px; }
 
@@ -372,7 +378,7 @@ section {
       height: 80px;
       position: absolute;
       z-index: 100;
-      background-color: #005d9c;
+      background-color: #005D9C;
       color: white;
       border-radius: 100%;
       border: 7px solid #f1f1f1;
@@ -505,7 +511,7 @@ ul.social-buttons {
     -moz-transition: all 0.3s;
     transition: all 0.3s; }
     ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-      background-color: #005d9c; }
+      background-color: #005D9C; }
 
 .btn:focus,
 .btn:active,
@@ -600,3 +606,5 @@ body {
   .team-photos p {
     padding-right: 10px;
     padding-left: 10px; }
+
+/*# sourceMappingURL=agency.css.map */
