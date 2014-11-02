@@ -335,7 +335,7 @@ section:first-of-type {
 
 .point-flat-banner {
   position: relative;
-  background-image: url("../images/point_logo_blue.jpg") no-repeat;
+  background: url("../images/point_logo_blue.jpg") no-repeat;
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -351,7 +351,7 @@ section:first-of-type {
     height: 600px; } }
 @media(max-width: 768px) {
   .point-flat-banner {
-    height: 300px; } }
+    height: 200px; } }
 .ui-elements {
   display: -webkit-box;
   display: -moz-box;
@@ -440,7 +440,10 @@ section .descriptive-text {
     display: block;
     width: 100% \9;
     max-width: 100%;
-    height: auto; } }
+    height: auto; }
+
+  .descriptive-text h2 {
+    text-align: left; } }
 section .point-feature {
   padding: 75px;
   text-align: justify;
