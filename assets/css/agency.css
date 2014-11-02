@@ -223,7 +223,11 @@ header {
       font-family: "Quicksand", "Open Sans", sans-serif;
       font-weight: 700;
       font-size: 50px;
-      margin-bottom: 25px; }
+      margin-bottom: 25px;
+      position: relative;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto; }
     header .hero-text .hero-exit {
       margin-top: 50px; }
     header .hero-text .ks-badge {
@@ -244,9 +248,9 @@ header {
       display: none; }
 
 .video-wrapper {
+  text-align: center;
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 25px;
   height: 0; }
   .video-wrapper iframe {
     position: absolute;
