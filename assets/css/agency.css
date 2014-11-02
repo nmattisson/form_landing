@@ -335,7 +335,7 @@ section:first-of-type {
 
 .point-flat-banner {
   position: relative;
-  background-image: url("../images/point+logo+blue.jpg") no-repeat;
+  background-image: url("../images/point_logo_blue.jpg") no-repeat;
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -345,7 +345,7 @@ section:first-of-type {
   background-size: cover; }
 @media(min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
   .point-flat-banner {
-    background-image: url("../images/point+logo+blue@2x.jpg"); } }
+    background-image: url("../images/point_logo_blue@2x.jpg"); } }
 @media(min-width: 768px) {
   .point-flat-banner {
     height: 600px; } }
