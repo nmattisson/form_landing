@@ -169,6 +169,8 @@ label {
       .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
         color: #e6e6e6;
         outline: none; }
+  .navbar-default .btn-kickstarter:hover {
+    background-color: #0068ab !important; }
   .navbar-default .navbar-nav > .active > a {
     border-radius: 0;
     color: white;
