@@ -332,6 +332,10 @@ section:first-of-type {
   font-size: 18px;
   font-family: "Quicksand", "Open Sans", sans-serif;
   font-weight: 400; }
+.launch-day-email .btn-launch {
+  font-size: 25px;
+  padding: 25px;
+  border-radius: 10px; }
 
 .point-flat-banner {
   position: relative;
