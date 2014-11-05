@@ -805,6 +805,9 @@ body {
 .press-photos {
   padding-bottom: 20px; }
 
+.vertical-align {
+  top: 50%; }
+
 .team-photos {
   padding-top: 10px; }
   .team-photos p:first-of-type {
