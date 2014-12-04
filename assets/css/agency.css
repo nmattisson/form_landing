@@ -337,6 +337,8 @@ section:first-of-type {
 .launch-day-email .btn-launch {
   font-size: 25px;
   padding: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
   border-radius: 10px; }
 
 .point-flat-banner {
@@ -816,5 +818,18 @@ body {
   .team-photos p {
     padding-right: 10px;
     padding-left: 10px; }
+
+.order-header {
+  position: relative; }
+
+.checkout-toggle-text {
+  color: #404040;
+  font-size: 0.4em;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
+.shopping {
+  margin-bottom: 35px !important; }
 
 /*# sourceMappingURL=agency.css.map */
