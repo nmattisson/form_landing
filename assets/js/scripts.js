@@ -92,6 +92,7 @@ var celerylocationcallback = function(data) {
         "SK",
         "FI",
         "SE",
+        "GB",
         "UK"
     ];
   if (data.statusCode === "OK" && data.countryCode) {
