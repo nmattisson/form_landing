@@ -25,19 +25,6 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-// For the Ajax Chimp scrolling form.
-$('#mc-form').ajaxChimp({
-    url: 'http://formdevices.us8.list-manage.com/subscribe/post?u=148eabee2d3bdf2c67c658db9&amp;id=8839686f56'
-});
-
-$('#mc-form-launch').ajaxChimp({
-    url: 'http://formdevices.us8.list-manage.com/subscribe/post?u=148eabee2d3bdf2c67c658db9&amp;id=089d16bcd3'
-});
-
-$('#mc-form-launch-bottom').ajaxChimp({
-    url: 'http://formdevices.us8.list-manage.com/subscribe/post?u=148eabee2d3bdf2c67c658db9&amp;id=089d16bcd3'
-});
-
 // Twitter Follow button
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
@@ -61,7 +48,6 @@ var toggleCeleryStore = function() {
     $('#celery-checkout-toggle').html('<a href="#" onclick="toggleCeleryStore()">US & International</a> | EU');
     $('.celery-checkout').html('<div id="celery-checkout-embed" data-celery="547f1dde99d46e0500e58373" data-celery-type="embed" data-celery-version="v2">Checkout EU</div>');
   }
-  Celery.initialize();
 }
 
 var celerylocationcallback = function(data) {
@@ -102,7 +88,6 @@ var celerylocationcallback = function(data) {
       $('.celery-checkout').html('<div id="celery-checkout-embed" data-celery="547f1dde99d46e0500e58373" data-celery-type="embed" data-celery-version="v2">Checkout</div>');
     }
   }
-  Celery.initialize();
 };
 
 $.getScript("http://api.ipinfodb.com/v3/ip-country/?key=8570f1b66c74cfa95f093d09a8c418f76a4066c93c5559c600d92cf296352767&format=json&callback=celerylocationcallback");
